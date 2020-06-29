@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 15%;
+}
+
+h1  {
+    text-align: center;
+}
+
+.card {
+    width: 70%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.err-msg {
+    font-size: 14px;
+    color: red;
+}
+
+#result {
+    text-transform: capitalize;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

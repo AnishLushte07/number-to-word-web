@@ -1,2 +1,2 @@
 # number-to-word-web
-Convert number to words string 
+Convert numbers to words string 

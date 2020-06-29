@@ -1,0 +1,30 @@
+{
+  "name": "number-to-word-web",
+  "version": "1.0.0",
+  "description": "Convert given number to words string",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "test": "mocha **/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnishLushte07/number-to-word-web.git"
+  },
+  "author": "Anish Lushte (lushteanish@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnishLushte07/number-to-word-web/issues"
+  },
+  "homepage": "https://github.com/AnishLushte07/number-to-word-web#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "husky": "^4.2.5",
+    "mocha": "^8.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  }
+}
