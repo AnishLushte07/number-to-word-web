@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 error.innerHTML = '';
             } catch (err) {
                 error.innerHTML = err;
-                data.innerHTML = '';
+                result.innerHTML = '';
             }
         }
     });
