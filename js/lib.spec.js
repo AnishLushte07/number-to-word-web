@@ -4,7 +4,7 @@ const lib = require('./lib.js');
 
 describe('Numbers to words test', function () {
     it('should return words string', function () {
-        const result = lib.convert('120356');
+        const result = lib.convert(120356);
         assert.equal(result, 'one lakh twenty thousand three hundred fifty six');
     });
     
